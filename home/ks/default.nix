@@ -2,8 +2,9 @@
   imports = [
     ./programs/shell
     ./programs/git
-    ./programs/foot
     ./programs/fastfetch
+    ./programs/user-apps
+
     ./system/gammastep
   ];
 }

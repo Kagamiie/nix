@@ -1,23 +1,27 @@
 {
   imports = [
+    # Core system configuration
     ./core/boot.nix
     ./core/users.nix
     ./core/tlp.nix
-
     ./core/hardware.nix
 
     ./desktop/sddm.nix
-    ./desktop/niri.nix
+    ./desktop/niri/default.nix
+    ./desktop/icewm/default.nix
     ./desktop/gaming.nix
 
     ./packages/pkgs.nix
     ./packages/fonts.nix
 
-    ./theme/stylix.nix
-
+    # Security
     ./security/network.nix
     ./security/hardening.nix
 
+    # Theme
+    ./theme/stylix.nix
+
+    # Virtualization & services
     ./virtualization.nix
     ./sql.nix
   ];

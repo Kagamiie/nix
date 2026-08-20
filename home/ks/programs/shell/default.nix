@@ -11,7 +11,7 @@ in {
       backup-clean = "find ${backupDir} -name '*.7z' -mtime +7 -delete";
       backup-list  = "ls -lah ${backupDir}/";
       sys-up       = "sudo nixos-rebuild switch --flake $HOME/System/nix#moya";
-      # home-up      = "home-manager switch --flake $HOME/System/nix#ks";
+
       homec = "zeditor $HOME/System/nix/home/";
       sysc  = "zeditor $HOME/System/nix/";
     };

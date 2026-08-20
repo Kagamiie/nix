@@ -1,16 +1,11 @@
 { config, pkgs, lib, ... }:
 
 {
-  services.xserver = {
-    enable = true;
-    windowManager.icewm.enable = true;
-  };
-
   services.displayManager = {
     sddm = {
       enable = true;
       package = pkgs.kdePackages.sddm;
-      wayland.enable = false;  # ← Change ici
+      wayland.enable = false;
       settings = {
         General = {
           Session = "niri";
@@ -19,4 +14,5 @@
       };
     };
     defaultSession = "niri";
-  };}
+  };
+}

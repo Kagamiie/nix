@@ -18,19 +18,6 @@ in {
   };
 
   home.packages = with pkgs; [
-    prismlauncher xivlauncher heroic
-
-    # gcalcli libnotify
-    # obs-studio
-    strawberry
-    filezilla
-    vesktop
-    obsidian
-
-    wireshark
-
-    zed-editor
-
     zen
     quickshell
   ];
