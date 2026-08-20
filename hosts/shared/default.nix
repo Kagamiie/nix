@@ -8,7 +8,7 @@
 
     ./desktop/sddm.nix
     ./desktop/niri/default.nix
-    ./desktop/icewm/default.nix
+    ./desktop/kde.nix
     ./desktop/gaming.nix
 
     ./packages/pkgs.nix
