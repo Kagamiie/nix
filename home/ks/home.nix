@@ -6,11 +6,6 @@ let
 in {
   imports = [ ./default.nix ];
 
-  services.udiskie = {
-    enable = true;
-    automount = true;
-  };
-
   home = {
     username      = "ks";
     homeDirectory = "/home/ks";

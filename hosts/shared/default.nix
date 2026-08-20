@@ -22,7 +22,7 @@
     ./theme/stylix.nix
 
     # Virtualization & services
-    ./virtualization.nix
-    ./sql.nix
+    # ./virtualization.nix
+    # ./sql.nix
   ];
 }

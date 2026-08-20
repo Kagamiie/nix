@@ -5,15 +5,14 @@
     prismlauncher
     xivlauncher
     heroic
-    unityhub alcom blender
 
-    strawberry      # Music player
-    obsidian        # Note-taking
+    strawberry
+    obsidian
 
-    filezilla       # FTP client
-    vesktop         # Discord client
-    wireshark       # Network analyzer
+    filezilla
+    vesktop
+    wireshark
 
-    zed-editor      # Code editor
+    zed-editor
   ];
 }
