@@ -10,7 +10,7 @@
     ./system/gammastep
     ./system/plasma.nix
 
-    ./toggle/java.nix
-    ./toggle/python.nix
+    ./programs/toggle/java.nix
+    ./programs/toggle/python.nix
   ];
 }
