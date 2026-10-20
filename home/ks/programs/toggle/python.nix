@@ -9,9 +9,9 @@ in
   };
 
   config = lib.mkIf cfg.enable {
-    home.packages = [
+    home.packages = with pkgs; [
       vscodium
-      (pkgs.python312.withPackages (ps: with ps; [
+      (python312.withPackages (ps: with ps; [
         jupyter
         ipykernel
         scapy
